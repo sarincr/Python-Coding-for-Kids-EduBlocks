@@ -1,0 +1,14 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="pyq]CJ6!%@|#fYE[089c">var</variable>
+    <variable type="" id="?q}.g$9bei%mYp}UQq;#">i</variable>
+    <variable type="" id="jr.xClGqBZq1:~+8d^DL">j</variable>
+  </variables>
+  <block type="webprintnew" id="{YE{Fu%TMMq^WW}#{C`l" x="308" y="70">
+    <value name="text">
+      <shadow type="textinline" id="FOqkrs:3*kh6{2uvOE9!">
+        <field name="text">Hello world</field>
+      </shadow>
+    </value>
+  </block>
+</xml>
