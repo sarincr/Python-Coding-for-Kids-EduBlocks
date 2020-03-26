@@ -1,0 +1,28 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id=",v!X*I:)Kvl4a06x@ssr">X</variable>
+    <variable type="" id="MP(DR*wXDy}$FC-B+C,x">i</variable>
+    <variable type="" id="hS}~|_M55l;UfZ[=z]b6">var</variable>
+  </variables>
+  <block type="variables_set" id="fqe|BD|9~{73`^82;j:`" x="390" y="64">
+    <field name="VAR" id=",v!X*I:)Kvl4a06x@ssr" variabletype="">X</field>
+    <field name="NAME">=</field>
+    <value name="varset">
+      <shadow type="textinline" id="tKS/8i(p(JlQ7,GR?C$0">
+        <field name="text">10</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="webvarprint" id="v3$z$oBtDq(yTs8IqQ!;">
+        <value name="var">
+          <shadow type="textinline" id="Bp7x2*7LI@;[,TqCBrK]">
+            <field name="text">Variable</field>
+          </shadow>
+          <block type="variables_get" id="WC@`3TZiR|uh}j,zucVA">
+            <field name="VAR" id=",v!X*I:)Kvl4a06x@ssr" variabletype="">X</field>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+</xml>
