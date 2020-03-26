@@ -1,0 +1,32 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id=",v!X*I:)Kvl4a06x@ssr">X</variable>
+    <variable type="" id="MP(DR*wXDy}$FC-B+C,x">i</variable>
+    <variable type="" id="hS}~|_M55l;UfZ[=z]b6">var</variable>
+  </variables>
+  <block type="variables_set" id="fqe|BD|9~{73`^82;j:`" x="390" y="64">
+    <field name="VAR" id=",v!X*I:)Kvl4a06x@ssr" variabletype="">X</field>
+    <field name="NAME">=</field>
+    <value name="varset">
+      <shadow type="textinline" id="tKS/8i(p(JlQ7,GR?C$0">
+        <field name="text">10</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="webvarprint" id="1f?@4ulNlD9{q5%JF;qj">
+        <value name="var">
+          <shadow type="textinline" id=")RB^gmNTUKAv/)wLFB*e">
+            <field name="text">Variable</field>
+          </shadow>
+          <block type="input_web" id="sZ[(Iq9:6onF6A^}y#_g">
+            <value name="NAME">
+              <shadow type="stringinline" id="~S3Kx%XRT#:]-22Q54Sz">
+                <field name="text">What is your name?</field>
+              </shadow>
+            </value>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+</xml>
