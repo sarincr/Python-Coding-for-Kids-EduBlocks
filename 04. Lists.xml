@@ -1,0 +1,29 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id=",v!X*I:)Kvl4a06x@ssr">X</variable>
+    <variable type="" id="MP(DR*wXDy}$FC-B+C,x">i</variable>
+    <variable type="" id="hS}~|_M55l;UfZ[=z]b6">var</variable>
+    <variable type="" id="Pp(0*ri|ei|Za*[9xT3X">j</variable>
+    <variable type="" id="F@%hT3%}MF^#c~[opAXc">list</variable>
+  </variables>
+  <block type="create_list" id="x`Nv:JA{RO$xQ]h1Se|H" x="331" y="145">
+    <field name="list" id="F@%hT3%}MF^#c~[opAXc" variabletype="">list</field>
+    <value name="text">
+      <shadow type="textinline" id="3qy[01s7;K^YT%R%ea$$">
+        <field name="text">1, 2, 3, 4</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="webvarprint" id="3xpfpWg@e8B6V--XCEJ4">
+        <value name="var">
+          <shadow type="textinline" id="0F58ToCQzf^F8(.HOL=E">
+            <field name="text">Variable</field>
+          </shadow>
+          <block type="variables_get" id="0^yHC2gWU5M-I`[we|Vf">
+            <field name="VAR" id="F@%hT3%}MF^#c~[opAXc" variabletype="">list</field>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+</xml>
