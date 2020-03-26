@@ -1,0 +1,65 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id=",v!X*I:)Kvl4a06x@ssr">X</variable>
+    <variable type="" id="MP(DR*wXDy}$FC-B+C,x">i</variable>
+    <variable type="" id="hS}~|_M55l;UfZ[=z]b6">var</variable>
+  </variables>
+  <block type="import_time" id="+-lAko;=*=P7%hO_z*tH" x="384" y="168">
+    <next>
+      <block type="variables_set" id="fqe|BD|9~{73`^82;j:`">
+        <field name="VAR" id=",v!X*I:)Kvl4a06x@ssr" variabletype="">X</field>
+        <field name="NAME">=</field>
+        <value name="varset">
+          <shadow type="textinline" id="tKS/8i(p(JlQ7,GR?C$0">
+            <field name="text">3</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="websleepnew" id="z!iWbDh(Mr-~RLJ_dK?g">
+            <value name="sleep">
+              <shadow type="textinline" id="X+!srTf$oxuH^5}9=LY!">
+                <field name="text">1</field>
+              </shadow>
+              <block type="variables_get" id="-C)IV?%RefW~,]9[hT*[">
+                <field name="VAR" id=",v!X*I:)Kvl4a06x@ssr" variabletype="">X</field>
+              </block>
+            </value>
+            <next>
+              <block type="webprintnew" id="U?)BV.j%=}g^H/SV@kzp">
+                <value name="text">
+                  <shadow type="textinline" id="I-{ReRMU+xfX]cxO.?Mm">
+                    <field name="text">Value of X is</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="websleepnew" id="rZ)wXxb5QCR,x^PN@7xD">
+                    <value name="sleep">
+                      <shadow type="textinline" id="X+!srTf$oxuH^5}9=LY!">
+                        <field name="text">1</field>
+                      </shadow>
+                      <block type="variables_get" id="Ri3/03/5cRiXl1hZc3m6">
+                        <field name="VAR" id=",v!X*I:)Kvl4a06x@ssr" variabletype="">X</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="webvarprint" id="Z#v9m/~?qqLd548%*57u">
+                        <value name="var">
+                          <shadow type="textinline" id="vd`d@yg,Lt1pBhWz^}kx">
+                            <field name="text">Variable</field>
+                          </shadow>
+                          <block type="variables_get" id="b!gkdd!:56UBNVL+UgFB">
+                            <field name="VAR" id=",v!X*I:)Kvl4a06x@ssr" variabletype="">X</field>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
