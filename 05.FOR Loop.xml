@@ -1,0 +1,47 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="*(#sB2r@lL-[xjIZG?;g">x</variable>
+    <variable type="" id="U-9Yh5|.gsiBlSE})%!;">var</variable>
+    <variable type="" id="HhiRweL%QJ$M2xye8?,,">list</variable>
+  </variables>
+  <block type="import_time" id="4.9Xd^JRadtcv4MO:wE9" x="213" y="22">
+    <next>
+      <block type="webfor" id="}j%{G}Ali24:ETi[|C8t">
+        <value name="letter">
+          <shadow type="textinline" id="H)el{RIn={2DV?h)cF$P">
+            <field name="text">i</field>
+          </shadow>
+          <block type="variables_get" id="CC3N4:tE1AKJvpWx)HKI">
+            <field name="VAR" id="*(#sB2r@lL-[xjIZG?;g" variabletype="">x</field>
+          </block>
+        </value>
+        <value name="no">
+          <shadow type="textinline" id="@gTd#;W2$4(Ih?HUtq]Y">
+            <field name="text">100</field>
+          </shadow>
+        </value>
+        <statement name="DO">
+          <block type="webvarprint" id="4uVQw^?3NG5Bc^,:.,Q[">
+            <value name="var">
+              <shadow type="textinline" id="tbmLP#SBI0#W9^KC$PBD">
+                <field name="text">Variable</field>
+              </shadow>
+              <block type="variables_get" id="t7,JM1c2?2W[yh,sysZ$">
+                <field name="VAR" id="*(#sB2r@lL-[xjIZG?;g" variabletype="">x</field>
+              </block>
+            </value>
+            <next>
+              <block type="websleepnew" id=":5Q4ohF-p!Aa;uz*pvGH">
+                <value name="sleep">
+                  <shadow type="textinline" id="T^}`?{S_3H*UX^YWn3Q=">
+                    <field name="text">1</field>
+                  </shadow>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>
