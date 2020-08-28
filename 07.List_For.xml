@@ -1,0 +1,43 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="Ac[y%TL;7|CnBBgLE]AS">x</variable>
+    <variable id="LO;1}XbW%n7V^}hHc19#">y</variable>
+  </variables>
+  <block type="create_list" id="y1u33Dkp_o,C2xv)Iif$" x="451" y="291">
+    <field name="list" id="Ac[y%TL;7|CnBBgLE]AS">x</field>
+    <value name="text">
+      <shadow type="textinline" id="H4F6$G;Va2Ai[D/;*-B8">
+        <field name="text">1, 2, 3, 4</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="webadvancedforloops" id="?w;LrNqRrYl(OccSwrm4">
+        <value name="x">
+          <shadow type="textinline" id="v|{Hc)ayy-0#8T5T42G3">
+            <field name="text">y</field>
+          </shadow>
+          <block type="variables_get" id="AqzRDUig941,}Z@g6eRH">
+            <field name="VAR" id="LO;1}XbW%n7V^}hHc19#">y</field>
+          </block>
+        </value>
+        <value name="y">
+          <shadow type="textinline" id="b(u@0aMNDupYgl+j2d(v">
+            <field name="text">x</field>
+          </shadow>
+        </value>
+        <statement name="DO">
+          <block type="webvarprint" id="hdYCX@*4sqSst~]i(Ti*">
+            <value name="var">
+              <shadow type="textinline" id="WS`V97d-!T-8*@Jgs(/}">
+                <field name="text">Variable</field>
+              </shadow>
+              <block type="variables_get" id="%,pm1=SO0|#PCHNRWpI%">
+                <field name="VAR" id="LO;1}XbW%n7V^}hHc19#">y</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>
