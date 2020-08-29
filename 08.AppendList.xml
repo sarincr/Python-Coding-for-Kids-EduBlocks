@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="!K#,*fb6B~LCEow!1Zlq">list</variable>
+    <variable id="5WA+)[l?w4B*v.~l*oA(">x</variable>
+  </variables>
+  <block type="create_list" id="x?trrFhDmJ:Z0n0xmLH+" x="352" y="298">
+    <field name="list" id="5WA+)[l?w4B*v.~l*oA(">x</field>
+    <value name="text">
+      <shadow type="textinline" id="Nyt},=MJle?]@_Pu52b_">
+        <field name="text">1, 2, 3, 4</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="optionlist" id="=q$drqeiVJK;%{`Utuam">
+        <field name="list" id="5WA+)[l?w4B*v.~l*oA(">x</field>
+        <field name="options">append</field>
+        <value name="text">
+          <shadow type="textinline" id="$EaQZ-7bVGh||Y7XTi35">
+            <field name="text">5</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="webvarprint" id="N2i.qtFP4$P#dB?e}/+m">
+            <value name="var">
+              <shadow type="textinline" id="R5Mzw%GyKgopLwXO8K@Y">
+                <field name="text">Variable</field>
+              </shadow>
+              <block type="variables_get" id="C)S~$wB0)gWntGFQP)k9">
+                <field name="VAR" id="5WA+)[l?w4B*v.~l*oA(">x</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
