@@ -1,0 +1,41 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="V-956PMSu(JQ3+8BJhU0">name</variable>
+    <variable id="mH{BXYv{qhkgUL%q;gIO">i</variable>
+    <variable id="pyq]CJ6!%@|#fYE[089c">var</variable>
+  </variables>
+  <block type="variables_set" id="6x0Uw*LS~Tm3Df_T%sCV" x="385" y="127">
+    <field name="VAR" id="V-956PMSu(JQ3+8BJhU0">name</field>
+    <field name="NAME">=</field>
+    <value name="varset">
+      <shadow type="textinline" id="D13mVS0Li/f4*;4h5?D_">
+        <field name="text">input("What is your name?")</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="webvarprint" id="N}J|5]%#3Z:Np]ZC55Sq">
+        <value name="var">
+          <shadow type="textinline" id="Pi,mVmBPv7~PAF%Hra~B">
+            <field name="text">Variable</field>
+          </shadow>
+          <block type="operators2" id="olEl]mkgX~H`kZxhPjp1">
+            <field name="operators">+</field>
+            <value name="first">
+              <shadow type="textinline" id="e~?7YuV[2[k!z1[x1Z+?">
+                <field name="text">"Hello, "</field>
+              </shadow>
+            </value>
+            <value name="last">
+              <shadow type="textinline" id="EUALr-o7Ds,dGrcVkuNt">
+                <field name="text">True</field>
+              </shadow>
+              <block type="variables_get" id="8e?Tr{TGXS_;[agmulsE">
+                <field name="VAR" id="V-956PMSu(JQ3+8BJhU0">name</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+</xml>
