@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="i;YzkH;^0)NJguRdz_|E">list</variable>
+    <variable id=";v*H(,Sxk#SC,8${7MQJ">x</variable>
+  </variables>
+  <block type="create_list" id="3i)2tT=BtQLvq;byhGU4" x="487" y="160">
+    <field name="list" id=";v*H(,Sxk#SC,8${7MQJ">x</field>
+    <value name="text">
+      <shadow type="textinline" id="U,|zo_%1g,ysAmmML3}W">
+        <field name="text">1,2,3,4,5,6</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="optionlist" id="0TwdS+n($v!?J_~C*]!h">
+        <field name="list" id=";v*H(,Sxk#SC,8${7MQJ">x</field>
+        <field name="options">pop</field>
+        <value name="text">
+          <shadow type="textinline" id="H;4DOLy4xi|fr#U[B5{Z">
+            <field name="text">3</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="webvarprint" id="[(T{@PZVAx3^]qz02B{(">
+            <value name="var">
+              <shadow type="textinline" id="0:(wpc+yB|VrOK~[{v};">
+                <field name="text">x</field>
+              </shadow>
+              <block type="variables_get" id="G-l/C0YyBY,-5rBZsek(">
+                <field name="VAR" id=";v*H(,Sxk#SC,8${7MQJ">x</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
