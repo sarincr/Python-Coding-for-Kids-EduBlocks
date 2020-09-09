@@ -1,0 +1,88 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="V-956PMSu(JQ3+8BJhU0">name</variable>
+    <variable id="mH{BXYv{qhkgUL%q;gIO">i</variable>
+    <variable id="pyq]CJ6!%@|#fYE[089c">var</variable>
+    <variable id="by=]`;yc$|Z1xea#eISw">list</variable>
+    <variable id="R=R$hAr/QBx7sAMlfYU1">x</variable>
+  </variables>
+  <block type="webwhileout" id="|}nlSrkQIwXHrrpZ1ANe" x="247" y="204">
+    <value name="cond">
+      <shadow type="textinline" id="Q+{*pFyw{.uN^vhPTY1L">
+        <field name="text">True</field>
+      </shadow>
+    </value>
+    <statement name="DO">
+      <block type="create_list" id="O,LRY2*/Do4[9~AfMy_]">
+        <field name="list" id="R=R$hAr/QBx7sAMlfYU1">x</field>
+        <value name="text">
+          <shadow type="textinline" id="u0!9+^!_s0yBx7~|rlZ-">
+            <field name="text"/>
+          </shadow>
+        </value>
+        <next>
+          <block type="variables_set" id="6x0Uw*LS~Tm3Df_T%sCV">
+            <field name="VAR" id="V-956PMSu(JQ3+8BJhU0">name</field>
+            <field name="NAME">=</field>
+            <value name="varset">
+              <shadow type="textinline" id="D13mVS0Li/f4*;4h5?D_">
+                <field name="text">input("What is your name?")</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="webvarprint" id="N}J|5]%#3Z:Np]ZC55Sq">
+                <value name="var">
+                  <shadow type="textinline" id="Pi,mVmBPv7~PAF%Hra~B">
+                    <field name="text">Variable</field>
+                  </shadow>
+                  <block type="operators2" id="olEl]mkgX~H`kZxhPjp1">
+                    <field name="operators">+</field>
+                    <value name="first">
+                      <shadow type="textinline" id="e~?7YuV[2[k!z1[x1Z+?">
+                        <field name="text">"Hello, "</field>
+                      </shadow>
+                    </value>
+                    <value name="last">
+                      <shadow type="textinline" id="EUALr-o7Ds,dGrcVkuNt">
+                        <field name="text">True</field>
+                      </shadow>
+                      <block type="variables_get" id="8e?Tr{TGXS_;[agmulsE">
+                        <field name="VAR" id="V-956PMSu(JQ3+8BJhU0">name</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="optionlist" id="3nv~LtM4^D7CvZgV3^q]">
+                    <field name="list" id="R=R$hAr/QBx7sAMlfYU1">x</field>
+                    <field name="options">append</field>
+                    <value name="text">
+                      <shadow type="textinline" id="bld)Bqy#CJW27Q`YZ!5m">
+                        <field name="text">3</field>
+                      </shadow>
+                      <block type="variables_get" id="N77Sri%!NE!-U|jTBeh*">
+                        <field name="VAR" id="V-956PMSu(JQ3+8BJhU0">name</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="webvarprint" id="v.CA@m%3nZ[~:[Q%zB2$">
+                        <value name="var">
+                          <shadow type="textinline" id="z%A||=wnlG%:Jc+?4z{4">
+                            <field name="text">Variable</field>
+                          </shadow>
+                          <block type="variables_get" id="r(x@=)Kakd/|)rA;Zs%%">
+                            <field name="VAR" id="R=R$hAr/QBx7sAMlfYU1">x</field>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
