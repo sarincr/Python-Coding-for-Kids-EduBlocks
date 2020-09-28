@@ -1,0 +1,113 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="e^3C!/l}g]-u]U)=oYN*">x</variable>
+  </variables>
+  <block type="import_math" id="i|hE)-#O{`_tQu-M8#?Q" x="519" y="102">
+    <next>
+      <block type="webprintnew" id="1JxOGgtpE3L`0}MFadg6">
+        <value name="text">
+          <shadow type="textinline" id="`Ic?C*MO[~LT0g43xjCT">
+            <field name="text">Sin 90 Value is</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="variables_set" id="zAJ4`.@8AFjgc-BspH+t">
+            <field name="VAR" id="e^3C!/l}g]-u]U)=oYN*">x</field>
+            <field name="NAME">=</field>
+            <value name="varset">
+              <shadow type="textinline" id="9{)`]|vJ9^9Ht)iN#L?|">
+                <field name="text">0</field>
+              </shadow>
+              <block type="math_sin" id="aRF{#{rmUhi!Tw*:;o+u">
+                <value name="text">
+                  <shadow type="textinline" id="%.dL:xAFcpBjot#{fGtF">
+                    <field name="text">90</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block type="webvarprint" id="dkBueHKI/ts@3_zwgW;/">
+                <value name="var">
+                  <shadow type="textinline" id="jJo4b]7[Jk2J]dDl@nbQ">
+                    <field name="text">Variable</field>
+                  </shadow>
+                  <block type="variables_get" id=",c#-D7p_gkHjaA9YtyNY">
+                    <field name="VAR" id="e^3C!/l}g]-u]U)=oYN*">x</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="variables_set" id="uUa`HeDH~EaNtSFzTGcd">
+                    <field name="VAR" id="e^3C!/l}g]-u]U)=oYN*">x</field>
+                    <field name="NAME">=</field>
+                    <value name="varset">
+                      <shadow type="textinline">
+                        <field name="text">0</field>
+                      </shadow>
+                      <block type="math_sin" id="FKaSx;V3`MO6Vn+hGgeS">
+                        <value name="text">
+                          <shadow type="textinline" id="cR4SHz4=gnxnk+~L(+|l">
+                            <field name="text">90</field>
+                          </shadow>
+                        </value>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="webprintnew" id="L*W^{SAXKRZQpvOZo(pe">
+                        <value name="text">
+                          <shadow type="textinline" id="}vGI49c0Xe,;dCrSgdiT">
+                            <field name="text">Cos 90 Value is</field>
+                          </shadow>
+                        </value>
+                        <next>
+                          <block type="webvarprint" id="JMTgIjG:$3^zK^ue,T^u">
+                            <value name="var">
+                              <shadow type="textinline">
+                                <field name="text">Variable</field>
+                              </shadow>
+                              <block type="variables_get" id="W#vd,C(Zv!tZ[oeL=rj.">
+                                <field name="VAR" id="e^3C!/l}g]-u]U)=oYN*">x</field>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+  <block type="webprintnew" id="n2d!@x0P-PQ@2K+E(v:~" x="735" y="580">
+    <value name="text">
+      <shadow type="textinline">
+        <field name="text">Hello World</field>
+      </shadow>
+      <block type="math_sin" id="pYg}(3|`4Buh/S5v4||q">
+        <value name="text">
+          <shadow type="textinline" id="7ovvn[prxdYw}wHCz)|@">
+            <field name="text">90</field>
+          </shadow>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="webprintnew" id="Re~{n@ZGwk-hVe~qH-IL" x="783" y="676">
+    <value name="text">
+      <shadow type="textinline">
+        <field name="text">Hello World</field>
+      </shadow>
+      <block type="math_sin" id="};_o@M0uS-!6y+1akJ=:">
+        <value name="text">
+          <shadow type="textinline" id="g=SB}$cr,]S03Uii~HTO">
+            <field name="text">90</field>
+          </shadow>
+        </value>
+      </block>
+    </value>
+  </block>
+</xml>
