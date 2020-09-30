@@ -1,0 +1,46 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="-sAj4DYlC%83aT$}MqaQ">x</variable>
+  </variables>
+  <block type="webwhileout" id="|2*!.L48Zz]|rt}N0|1M" x="257" y="166">
+    <value name="cond">
+      <shadow type="textinline" id="??Y3;CLcoE{]buPFfDDL">
+        <field name="text">True</field>
+      </shadow>
+    </value>
+    <statement name="DO">
+      <block type="random" id="CVLWFhG.$-ZEF!QoA|I9">
+        <next>
+          <block type="variables_set" id="2X@k7D@;9s7(h*p#yHj5">
+            <field name="VAR" id="-sAj4DYlC%83aT$}MqaQ">x</field>
+            <field name="NAME">=</field>
+            <value name="varset">
+              <shadow type="textinline" id="^qDTlF{ZkUMNsn+^s=Tb">
+                <field name="text">0</field>
+              </shadow>
+              <block type="random_randrange" id="EYN:b@cH0(0@zds!xmYn">
+                <value name="text">
+                  <shadow type="textinline" id="j8:?IY}xFlcAo8Z](_td">
+                    <field name="text">10</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block type="webvarprint" id="6!)!7FIV`|Nz}=v^1_+h">
+                <value name="var">
+                  <shadow type="textinline" id="|DZ_xdD!/X|[)sB{Jbfh">
+                    <field name="text">Variable</field>
+                  </shadow>
+                  <block type="variables_get" id="g%{s;dE$2g{[9hx~44=u">
+                    <field name="VAR" id="-sAj4DYlC%83aT$}MqaQ">x</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
